@@ -38259,7 +38259,7 @@ q=s.length
 if(q<16)A.ag(A.auf("buffer too small: need 16: length="+q))
 q=$.ayW()
 this.ai(new A.agJ(new A.eN(q[s[0]]+q[s[1]]+q[s[2]]+q[s[3]]+"-"+q[s[4]]+q[s[5]]+"-"+q[s[6]]+q[s[7]]+"-"+q[s[8]]+q[s[9]]+"-"+q[s[10]]+q[s[11]]+q[s[12]]+q[s[13]]+q[s[14]]+q[s[15]],a,b,c)))
-this.c.a9(t.Pu).f.l9(A.aat(r,r,r,r,r,B.E,r,A.ba("Menu **"+a+"** berhasil ditambahkan!",r,r,r,r,r,r,r),r,B.da,r,r,r,r,r,r,r,r,r))},
+this.c.a9(t.Pu).f.l9(A.aat(r,r,r,r,r,B.E,r,A.ba("Menu "+a+" berhasil ditambahkan!",r,r,r,r,r,r,r),r,B.da,r,r,r,r,r,r,r,r,r))},
 abX(){var s,r={},q=$.ah()
 r.a=B.b.ga5(A.ane())
 s=this.c

@@ -44555,15 +44555,15 @@ B.aiQ.prototype={
 $2(a,b){return a+b.b},
 $S:294}
 B.aiR.prototype={
-$2(a,b){var s=null,r=this.a,q=J.aj(r),p=q.h(r,b)
-r=B.bm("Transaksi #"+(q.gq(r)-b),s,s,s,s,s,s,s)
-return B.a3w(B.aFq(A.Rn,new B.aiP(a,p,b),B.bm("Waktu: "+this.b.dz(B.uH(p.c.goP())),s,s,s,s,s,s,s),r,B.bm($.lo().dz(p.b),s,s,s,s,A.aJi,s,s)),A.r6,s,A.Qg)},
+$2(a,b){var s=null,r=this.a,q=J.aj(r),p=q.h(r,b),o=q.gq(r)-b
+r=B.bm("Transaksi #"+o,s,s,s,s,s,s,s)
+return B.a3w(B.aFq(A.Rn,new B.aiP(a,p,o),B.bm("Waktu: "+this.b.dz(B.uH(p.c.goP())),s,s,s,s,s,s,s),r,B.bm($.lo().dz(p.b),s,s,s,s,A.aJi,s,s)),A.r6,s,A.Qg)},
 $S:126}
 B.aiP.prototype={
 $0(){B.yI(new B.aiO(this.b,this.c),this.a,t.z)},
 $S:0}
 B.aiO.prototype={
-$1(a){return new B.wT(this.a,this.b+1,null)},
+$1(a){return new B.wT(this.a,this.b,null)},
 $S:298}
 B.wT.prototype={
 J(a){var s=null,r=B.azW("dd MMM yyyy, HH:mm:ss"),q=B.bm("Detail Transaksi #"+this.d,s,s,s,s,s,s,s),p=this.c,o=t.p,n=B.b([B.bm("Waktu: "+r.dz(B.uH(p.c.goP())),s,s,s,s,s,s,s),A.rC,A.aM5],o),m=p.d,l=B.Z(m).i("a1<1,bH>")
